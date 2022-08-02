@@ -1,0 +1,103 @@
+body {
+    background-color: #525252;
+}
+.container{
+    background-color:#525252;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 105vh;
+    background-image: url(https://preview.redd.it/7fyjyi6gjq291.jpg?auto=webp&s=37096bbb157f6ae19b08f0aff323d568e78dd3a1);
+    background-position: center;
+    background-size:cover;
+    
+}
+.head{
+    background-color: #fcd34d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Rampart One', cursive;
+    font-size: larger;
+    color:#dc2626 ;
+    width: 100%;
+    height: 20vh;
+    padding: 20px;
+}
+nav{
+    width: 50%;
+    display: flex;
+    justify-content:space-between;
+}
+button{
+    border:solid #dc2626 ;
+    color: #dc2626;
+    width: 20vh;
+    height: 7vh;
+    background:#fcd34d;
+    margin: 10px;
+    font-family: 'Rampart One', cursive;
+    font-size: 30px;
+}
+button:hover{
+    border:solid #fcd34d ;
+    color:#fcd34d;
+    background:#dc2626;
+    transition:  1s;
+}
+.Hpage{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height: 160vh;
+    background-color:#525252;
+    opacity: 0.9;
+    margin: 25px;
+    padding: 10px;
+    font-family: 'Rampart One', cursive;
+    font-size:35px;
+    color: #dc2626;
+}
+.imgHome{
+    width: 500px;
+    height: 500px;
+    background-image: url(https://media.revistagq.com/photos/62cbde2a20f6633c57b21fb6/3:4/w_999,h_1332,c_limit/numero-surfer-boy-pizza-stranger-things.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.Mpage{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height: 160vh;
+    margin: 25px;
+    padding: 10px;
+}
+.imgMenu{
+    width: 600px;
+    height: 600px;
+    background-image: url(https://cdn1.vectorstock.com/i/1000x1000/25/30/pizza-ingredients-for-menu-vector-7662530.jpg);
+    background-size: cover;  
+}
+.Cpage{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    background-color:#525252;
+    margin: 25px;
+    padding: 10px;
+    opacity: 0.9;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fccf07;
+    font-size: 40px;
+    border: solid black;
+}
